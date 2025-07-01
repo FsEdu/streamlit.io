@@ -2,7 +2,7 @@ name: Auto Click Streamlit
 
 on:
   schedule:
-    - cron: '0 */12 * * *'     # 每 12 小时自动运行
+    - cron: '0 */8 * * *'     # 每 12 小时自动运行
   workflow_dispatch:           # 支持手动运行
 
 jobs:
